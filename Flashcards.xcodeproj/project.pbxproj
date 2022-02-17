@@ -17,6 +17,9 @@
 		AC08D02427BAB58400B5F2B3 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08D02327BAB58400B5F2B3 /* FlashcardsTests.swift */; };
 		AC08D02E27BAB58400B5F2B3 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08D02D27BAB58400B5F2B3 /* FlashcardsUITests.swift */; };
 		AC08D03027BAB58400B5F2B3 /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08D02F27BAB58400B5F2B3 /* FlashcardsUITestsLaunchTests.swift */; };
+		AC08D03D27BABEFF00B5F2B3 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08D03C27BABEFF00B5F2B3 /* Flashcard.swift */; };
+		AC08D03F27BBE22900B5F2B3 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08D03E27BBE22900B5F2B3 /* Deck.swift */; };
+		AC8CC15C27BE84CB0033ADF8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CC15B27BE84CB0033ADF8 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		AC08D02927BAB58400B5F2B3 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC08D02D27BAB58400B5F2B3 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		AC08D02F27BAB58400B5F2B3 /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC08D03C27BABEFF00B5F2B3 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		AC08D03E27BBE22900B5F2B3 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		AC8CC15B27BE84CB0033ADF8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				AC08D00B27BAB58200B5F2B3 /* SceneDelegate.swift */,
 				AC08D00D27BAB58200B5F2B3 /* ViewController.swift */,
 				AC08D00F27BAB58200B5F2B3 /* Main.storyboard */,
+				AC08D03E27BBE22900B5F2B3 /* Deck.swift */,
+				AC08D03C27BABEFF00B5F2B3 /* Flashcard.swift */,
+				AC8CC15B27BE84CB0033ADF8 /* InfoViewController.swift */,
 				AC08D01527BAB58400B5F2B3 /* Assets.xcassets */,
 				AC08D01727BAB58400B5F2B3 /* LaunchScreen.storyboard */,
 				AC08D01A27BAB58400B5F2B3 /* Info.plist */,
@@ -261,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC08D03F27BBE22900B5F2B3 /* Deck.swift in Sources */,
 				AC08D00E27BAB58200B5F2B3 /* ViewController.swift in Sources */,
+				AC08D03D27BABEFF00B5F2B3 /* Flashcard.swift in Sources */,
+				AC8CC15C27BE84CB0033ADF8 /* InfoViewController.swift in Sources */,
 				AC08D00A27BAB58200B5F2B3 /* AppDelegate.swift in Sources */,
 				AC08D01427BAB58200B5F2B3 /* Flashcards.xcdatamodeld in Sources */,
 				AC08D00C27BAB58200B5F2B3 /* SceneDelegate.swift in Sources */,

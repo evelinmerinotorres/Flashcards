@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "f_USTA1189274_20190907_USO_D13_GE2_3541_MediaWall.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
